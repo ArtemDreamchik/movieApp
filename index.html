@@ -1,0 +1,41 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="header">
+            <div class="header__description-wrapper">
+                <p class="header__description">список фильмов</p>
+            </div>
+            <div class="header__description-wrapper">
+                <p class="header__year">2026</p>
+            </div>
+            <h1 class="header__title">Посмотреть</h1>
+        </div>
+        <div class="film-list__section">
+            <div class="add-input-wrapper">
+                <input 
+                    type="text" 
+                    class="js-add-input add-input"
+                    placeholder="Добавить фильм">
+            </div>
+            <div class="js-add-btn add-btn">
+                <img src="resources/btn.png" alt="" class="add-btn__img">
+            </div>
+            <div class="js-film-list film-list">
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
